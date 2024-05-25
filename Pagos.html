@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transacciones</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Pagos.css"> <!-- Tus estilos personalizados -->
+</head>
+<body>
+    <div class="sidebar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/CUL2016.png" alt="Logo">
+        <ul>
+            <li><img src="https://i.pinimg.com/564x/11/df/bf/11dfbfd5cbedcd606911dcfdace1b8b5.jpg" alt="Imagen 1"><a href="Primera.html">Inicio</a></li>
+            <li><img src="https://i.pinimg.com/564x/2a/d2/f0/2ad2f0262791bf1ee5492a6737a82081.jpg" alt="Imagen 2"><a href="Informacion.html">Información</a></li>
+            <li><img src="https://i.pinimg.com/564x/2a/d2/f0/2ad2f0262791bf1ee5492a6737a82081.jpg" alt="Imagen 3"><a href="Sira.html">SIRA</a></li>
+            <li><img src="https://i.pinimg.com/564x/42/61/58/4261587d247054809e5c8d62fa143c3a.jpg" alt="Imagen 4"><a href="Pagos.html">Preguntas</a></li>
+        </ul>
+    </div>
+    
+    <div class="head-container">
+        <h2 class="head-titulo">Preguntas Frecuentes</h2>
+        <div class="head-categorias">
+            <div class="categoria activo" data-id="pago">
+                <i class='bx bx-money'></i>
+                <p>Metodos de equipo</p>
+            </div>
+            <div class="categoria" data-id="entregas">
+                <i class='bx bx-box'></i>
+                <p>Prestamos</p>
+            </div>
+            <div class="categoria" data-id="seguridad">
+                <i class='bx bx-check-shield'></i>
+                <p>Seguridad</p>
+            </div>
+            <div class="categoria" data-id="cuenta">
+                <i class='bx bx-list-check'></i>
+                <p>Cuentas</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div class="pago visible">
+            <div class="preg-container" data-id="1">
+                <div class="preg" data-id="1">
+                    <p class="preg-txt">Si se realiza un daño fisico en el equipo, ¿Como puedo cancelarlo?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">El docente o el causante de los daños hacia el/los equipo/s debe acercarse a sistemas, firmar unos documentos sobre el daño, luego se le hace entrega del comprobante de pago y se cancela de forma presencial</p>
+            </div>
+            <div class="preg-container" data-id="2">
+                <div class="preg" data-id="2">
+                    <p class="preg-txt">¿Que sucede si no puedo realizar el pago del equipo dañado?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">El docente o causante de los daños no tendrá derecho a realizar mas prestamos, se le restringe los recursos tecnologicos hasta que se cancele</p>
+            </div>
+        </div>
+        <div class="entregas">
+            <div class="preg-container" data-id="3">
+                <div class="preg" data-id="3">
+                    <p class="preg-txt">¿Cuantos equipos puedo alquilar?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">Los equipos son ilimitados, sin embargo tenga en cuenta que debe realizar con anticipacion una solicitud, para que el administrador pueda cancelar o confirmar su prestamo.</p>
+            </div>
+            <div class="preg-container" data-id="4">
+                <div class="preg" data-id="4">
+                    <p class="preg-txt">¿Quienes pueden adquirir este servicio?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">Este servicio lo brinda la universidad a los docentes, quienes se encargan son los de sistemas "administradores", los estudiantes no pueden adquirir este servicio, solo docentes.</p>
+            </div>
+        </div>
+        <div class="seguridad">
+            <div class="preg-container" data-id="5">
+                <div class="preg" data-id="5">
+                    <p class="preg-txt">¿Los equipos estan en buenas condiciones?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">Cada equipo que se le entrega al docente se encuentra en perfectas condiciones, antes de la entrega se hace una prueba de calidad del equipo delante del docente para no generar confuciones.</p>
+            </div>
+            <div class="preg-container" data-id="6">
+                <div class="preg" data-id="6">
+                    <p class="preg-txt">¿Por cuanto tiempo puedo quedarme con el equipo?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">El equipo tiene un limite de tiempo de uso, en el momento de realizar la solicitud, se brinda la opcion de brindar el servicio por cierto tiempo, este debe cumplirse o se realiza una multa al docente.</p>
+            </div>
+        </div>
+        <div class="cuenta">
+            <div class="preg-container" data-id="7">
+                <div class="preg" data-id="7">
+                    <p class="preg-txt">¿Cualquier docente puede adquirir este servicio?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">Los docentes de la universidad pueden alquilar nuestros equipos, para esto debe realizar ciertos pasos de inscripción </p>
+            </div>
+            <div class="preg-container" data-id="8">
+                <div class="preg" data-id="8">
+                    <p class="preg-txt">¿Como puedo crear mi cuenta en SIRA?</p>
+                    <i class='bx bxs-down-arrow arrow'></i>
+                </div>
+                <p class="resp">El administrador se encarga de crearte una cuenta y obtener tus datos, ya despues puedes ingresar a la pagina de SIRA e iniciar sesion con tu correo institucional y realizar tu solicitud </p>
+            </div>
+        </div>
+    </div>      
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-arrow-right"></i> Preguntas</a></li>
+                        <li><a href="#"><i class="bi bi-arrow-right"></i> Servicio</a></li>
+                        <li><a href="#"><i class="bi bi-arrow-right"></i> Inquietud</a></li>
+                        <li><a href="#"><i class="bi bi-arrow-right"></i> Quejas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/Pagos.js"></script> <!-- Tu script personalizado -->
+</body>
+</html>
