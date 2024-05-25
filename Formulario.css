@@ -1,0 +1,80 @@
+html {
+  font-family: "Open Sans";
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.separador {
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  label {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"],
+  select {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
